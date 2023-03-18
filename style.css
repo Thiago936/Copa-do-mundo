@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-header{
+    background-color: #009c3b;
+    width: 100%;
+    height: 60px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+.div-header .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.div-header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+.div-header li{
+    margin-left: 7px;
+}
+.div-header li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.div-header li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.div-logo{
+    display: flex; /* or inline-flex */
+    margin-top: 1%;
+    padding-left: 8%;
+   
+}
+
+.div-texto{
+    padding-left: 14%;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration-color: #009c3b;
+    color: #009c3b;
+}
+
+.container{
+    margin-top: 2%;
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
+    
+.container1{
+    margin-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
+.container2{
+    margin-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
+.container3{
+    margin-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
+.container4{
+    margin-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
